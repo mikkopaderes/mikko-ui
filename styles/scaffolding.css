@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --mk-dark-12: rgb(0 0 0 / 12%);
+  --mk-dark-38: rgb(0 0 0 / 38%);
+  --mk-dark-60: rgb(0 0 0 / 60%);
+  --mk-dark-87: rgb(0 0 0 / 87%);
+  --mk-light-12: rgb(255 255 255 / 12%);
+  --mk-light-50: rgb(255 255 255 / 50%);
+  --mk-light-70: rgb(255 255 255 / 70%);
+  --mk-light-100: rgb(255 255 255 / 100%);
+
+  /* Motion duration */
+  --mk-motion-tiny-expand-duration: 100ms;
+  --mk-motion-small-expand-duration: 150ms;
+  --mk-motion-medium-expand-duration: 250ms;
+  --mk-motion-large-expand-duration: 300ms;
+  --mk-motion-tiny-collapse-duration: 100ms;
+  --mk-motion-small-collapse-duration: 75ms;
+  --mk-motion-medium-collapse-duration: 200ms;
+  --mk-motion-large-collapse-duration: 250ms;
+
+  /* Motion easing */
+  --mk-motion-standard-curve: cubic-bezier(0.4, 0, 0.2, 1);
+  --mk-motion-deceleration-curve: cubic-bezier(0, 0, 0.2, 1);
+  --mk-motion-acceleration-curve: cubic-bezier(0.4, 0, 1, 1);
+  --mk-motion-sharp-curve: cubic-bezier(0.4, 0, 0.6, 1);
+
+  /* Radius */
+  --mk-border-radius-circle: 50%;
+  --mk-border-radius-pill: 20px;
+  --mk-border-radius-square: 8px;
+  --mk-border-radius-squircle: 12px;
+
+  /* Typography */
+  --mk-font-brand-family:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  --mk-font-primary-family:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  --mk-font-size-12: 0.75rem;
+  --mk-font-size-14: 0.875rem;
+  --mk-font-size-16: 1rem;
+  --mk-font-size-18: 1.125rem;
+  --mk-font-size-24: 1.5rem;
+  --mk-font-size-28: 1.75rem;
+  --mk-font-size-32: 2rem;
+  --mk-font-size-36: 2.25rem;
+  --mk-font-size-45: 2.8125rem;
+  --mk-font-size-57: 3.5625rem;
+  --mk-font-size-64: 4rem;
+  --mk-font-weight-light: 300;
+  --mk-font-weight-regular: 400;
+  --mk-font-weight-medium: 500;
+}

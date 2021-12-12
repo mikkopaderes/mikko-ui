@@ -1,0 +1,29 @@
+{
+  "name": "mikko-ui",
+  "version": "0.1.0",
+  "description": "Just a bunch of pure CSS files that I can quickly drop in my personal projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint styles/**/*.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkopaderes/mikko-ui.git"
+  },
+  "author": "Mikko Paderes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikkopaderes/mikko-ui/issues"
+  },
+  "homepage": "https://github.com/mikkopaderes/mikko-ui#readme",
+  "devDependencies": {
+    "stylelint": "^14.1.0",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "normalize.css": "^8.0.1"
+  }
+}

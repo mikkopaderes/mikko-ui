@@ -1,0 +1,5 @@
+.mk-card {
+  overflow: hidden;
+  background-color: var(--mk-card-bg-color);
+  border-radius: var(--mk-border-radius-squircle);
+}

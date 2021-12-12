@@ -1,0 +1,24 @@
+.mk-container {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (min-width: 600px) {
+  .mk-container {
+    max-width: 600px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 840px) {
+  .mk-container {
+    max-width: 840px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

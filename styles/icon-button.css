@@ -1,0 +1,33 @@
+.mk-icon-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  overflow: hidden;
+  color: var(--mk-icon-button-text-color);
+  background: none;
+  border: none;
+  border-radius: var(--mk-border-radius-circle);
+}
+
+.mk-icon-button:hover::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 25;
+  content: "";
+  background-color: var(--mk-icon-button-hover-bg-color);
+}
+
+.mk-icon-button:active::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 25;
+  content: "";
+  background-color: var(--mk-icon-button-active-bg-color);
+}
