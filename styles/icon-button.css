@@ -10,24 +10,14 @@
   border-radius: var(--mk-border-radius-circle);
 }
 
-.mk-icon-button:hover::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-icon-button-hover-bg-color);
+.mk-icon-button:disabled {
+  color: var(--mk-icon-button-text-color-disabled);
 }
 
-.mk-icon-button:active::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-icon-button-active-bg-color);
+.mk-icon-button:hover:not(:disabled) {
+  background-color: var(--mk-button-bg-color-hover);
+}
+
+.mk-icon-button:active:not(:disabled) {
+  background-color: var(--mk-button-bg-color-active);
 }

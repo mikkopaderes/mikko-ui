@@ -10,20 +10,37 @@
 
   /* Button */
   --mk-button-text-color: var(--mk-brand-color);
-  --mk-button-hover-bg-color: rgb(0 0 0 / 6%);
-  --mk-button-active-bg-color: rgb(0 0 0 / 12%);
-  --mk-button-filled-bg-color: var(--mk-brand-color);
-  --mk-button-filled-hover-bg-color: rgb(255 255 255 / 12%);
-  --mk-button-filled-active-bg-color: rgb(255 255 255 / 18%);
+  --mk-button-text-color-disabled: var(--mk-dark-38);
+  --mk-button-bg-color-hover: rgb(0 0 0 / 6%);
+  --mk-button-bg-color-active: rgb(0 0 0 / 12%);
   --mk-button-filled-text-color: var(--mk-font-inverse-primary-color);
+  --mk-button-filled-text-color-disabled: var(--mk-dark-38);
+  --mk-button-filled-bg-color: var(--mk-brand-color);
+  --mk-button-filled-bg-color-disabled: var(--mk-dark-12);
+
+  /* Border */
+  --mk-border-color: var(--mk-dark-12);
 
   /* Card */
   --mk-card-bg-color: #f3f2f1;
 
   /* Icon Button */
   --mk-icon-button-text-color: var(--mk-font-secondary-color);
-  --mk-icon-button-hover-bg-color: rgb(0 0 0 / 6%);
-  --mk-icon-button-active-bg-color: rgb(0 0 0 / 12%);
+  --mk-icon-button-text-color-disabled: var(--mk-dark-38);
+  --mk-icon-button-bg-color-hover: rgb(0 0 0 / 6%);
+  --mk-icon-button-bg-color-active: rgb(0 0 0 / 12%);
+
+  /* Input */
+  --mk-input-text-color-disabled: var(--mk-dark-38);
+  --mk-input-bg-color: #fff;
+  --mk-input-bg-color-disabled: var(--mk-dark-12);
+  --mk-input-placeholder-text-color: var(--mk-dark-38);
+
+  /* Search Field */
+  --mk-search-field-text-color-disabled: var(--mk-dark-38);
+  --mk-search-field-bg-color: #f3f2f1;
+  --mk-search-field-bg-color-disabled: var(--mk-dark-12);
+  --mk-search-field-placeholder-text-color: var(--mk-dark-38);
 
   /* Top App Bar */
   --mk-top-app-bar-bg-color: #fff;

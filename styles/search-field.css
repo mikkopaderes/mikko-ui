@@ -1,0 +1,19 @@
+.mk-search-field {
+  width: 100%;
+  padding: 16px;
+  font-size: var(--mk-font-size-16);
+  background-color: var(--mk-card-bg-color);
+  border: none;
+  border-radius: var(--mk-border-radius-pill);
+  outline: none;
+  appearance: none;
+}
+
+.mk-search-field::placeholder {
+  color: var(--mk-search-field-placeholder-text-color);
+}
+
+.mk-search-field:disabled {
+  color: var(--mk-search-field-text-color-disabled);
+  background-color: var(--mk-search-field-bg-color-disabled);
+}

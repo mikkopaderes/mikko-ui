@@ -14,26 +14,16 @@
   border-radius: var(--mk-border-radius-pill);
 }
 
-.mk-button:hover::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-button-hover-bg-color);
+.mk-button:disabled {
+  color: var(--mk-button-text-color-disabled);
 }
 
-.mk-button:active::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-button-active-bg-color);
+.mk-button:hover:not(:disabled) {
+  background-color: var(--mk-button-bg-color-hover);
+}
+
+.mk-button:active:not(:disabled) {
+  background-color: var(--mk-button-bg-color-active);
 }
 
 .mk-button--filled {
@@ -44,24 +34,17 @@
   background-color: var(--mk-button-filled-bg-color);
 }
 
-.mk-button--filled:hover::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-button-filled-hover-bg-color);
+.mk-button--filled:disabled {
+  color: var(--mk-button-filled-text-color-disabled);
+  background-color: var(--mk-button-filled-bg-color-disabled);
 }
 
-.mk-button--filled:active::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 25;
-  content: "";
-  background-color: var(--mk-button-filled-active-bg-color);
+.mk-button--filled:hover:not(:disabled) {
+  background-color: var(--mk-button-filled-bg-color);
+  opacity: 0.92;
+}
+
+.mk-button--filled:active:not(:disabled) {
+  background-color: var(--mk-button-filled-bg-color);
+  opacity: 0.84;
 }

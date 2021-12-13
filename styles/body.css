@@ -2,7 +2,7 @@ body {
   font-family: var(--mk-font-primary-family);
   font-size: var(--mk-font-size-14);
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: 1.25em;
   color: var(--mk-font-primary-color);
   background-color: var(--mk-body-bg-color);
 }
